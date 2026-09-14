@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"
+/>
+<title>James Evans-Mcquay | Aspiring System Administrator</title>
+<link rel="stylesheet" href="styles.css" />
+<!-- Google tag (gtag.js) -->
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX'); // replace with your Measurement ID
+</script>
+</head>
+<body>
+<header class="site-header">
+<h1>Hello, I’m <span id="student-name">James Evans-Mcquay</span></h1>
+<p class="tagline">Aspiring system administrator focused on reliable systems, practical troubleshooting, and continuous learning.</p>
+<!-- CTA now opens an email client -->
+<a
+href="mailto:jamesmcquay2002@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20James%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+id="cta-btn"
+class="btn-primary"
+>Contact Me</a>
+<a href="https://www.linkedin.com/in/james-mcquay-a3337442b" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</header>
+<main>
+<section id="projects" class="section">
+<h2>Project Goals</h2>
+<ul class="cards">
+<li class="card">
+<h3>Windows &amp; Linux Home Lab</h3>
+<p>A planned lab for practicing operating system setup, user accounts, permissions, networking, and backups in virtual machines. The goal is to document each setup and the steps used to troubleshoot problems.</p>
+<p><small>Planned project · Systems administration</small></p>
+</li>
+<li class="card">
+<h3>Everyday IT Automation</h3>
+<p>A planned collection of PowerShell and Bash scripts for routine tasks such as checking disk space, reviewing services, and collecting system information. The goal is to make repeatable work easier to run and understand.</p>
+<p><small>Planned project · Scripting &amp; automation</small></p>
+</li>
+</ul>
+</section>
+<section id="automation-preview" class="section">
+<div class="section-heading">
+<h2>Automation Preview</h2>
+<p>See how a small Python-style workflow could turn a messy folder into a more organized one.</p>
+</div>
+<div class="automation-demo" aria-live="polite">
+<p class="demo-label">Browser simulation only. This demo does not access real files.</p>
+<div class="file-board">
+<div class="file-column">
+<h3>Messy folder</h3>
+<ul id="messy-files" class="file-list">
+<li><span aria-hidden="true">TXT</span>notes.txt</li>
+<li><span aria-hidden="true">JPG</span>photo.jpg</li>
+<li><span aria-hidden="true">PY</span>backup.py</li>
+<li><span aria-hidden="true">PDF</span>report.pdf</li>
+<li><span aria-hidden="true">PY</span>cleanup.py</li>
+</ul>
+</div>
+<div class="organized-files" hidden>
+<div class="file-column">
+<h3>Documents</h3>
+<ul id="documents-files" class="file-list"></ul>
+</div>
+<div class="file-column">
+<h3>Images</h3>
+<ul id="images-files" class="file-list"></ul>
+</div>
+<div class="file-column">
+<h3>Scripts</h3>
+<ul id="scripts-files" class="file-list"></ul>
+</div>
+</div>
+</div>
+<div class="demo-actions">
+<button type="button" id="organize-files" class="btn-primary">Organize Files</button>
+<button type="button" id="reset-files" class="btn-secondary">Reset</button>
+</div>
+</div>
+</section>
+<section id="about" class="section">
+<h2>About</h2>
+<p>My name is James Evans-Mcquay, and I’m an aspiring system administrator. I want to understand how systems work, how to keep them dependable, and how to track down the cause when something goes wrong.</p>
+<p>My focus is building a solid foundation in Windows, Linux, networking, and scripting. My approach is to practice, ask questions, and write down what I learn so the next problem is easier to solve.</p>
+<p>I’m interested in opportunities to learn from experienced IT professionals and develop practical support and systems administration skills.</p>
+<p><a href="mailto:jamesmcquay2002@gmail.com">jamesmcquay2002@gmail.com</a> <span aria-hidden="true">·</span> <a href="https://www.linkedin.com/in/james-mcquay-a3337442b" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></p>
+</section>
+</main>
+<footer class="site-footer">
+<small>© <span id="year"></span> James Evans-Mcquay</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
