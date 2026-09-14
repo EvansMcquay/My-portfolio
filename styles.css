@@ -70,7 +70,7 @@ list-style: none;
 padding: 0;
 display: grid;
 gap: 16px;
-grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .card {
 background: var(--card);
@@ -83,6 +83,16 @@ margin: 0 0 8px;
 }
 .card p {
 color: var(--muted);
+}
+.goal-list {
+display: grid;
+gap: 10px;
+margin: 0;
+padding-left: 20px;
+color: var(--muted);
+}
+.goal-list li::marker {
+color: var(--accent);
 }
 .section-heading p,
 .demo-label {
@@ -189,6 +199,9 @@ padding: 28px 18px;
 }
 .file-board,
 .organized-files {
+grid-template-columns: 1fr;
+}
+.cards {
 grid-template-columns: 1fr;
 }
 .contact-link {
